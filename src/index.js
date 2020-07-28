@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+/*导入antd框架样式*/
+import 'antd/dist/antd.css'
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>
+    <App />,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
 
